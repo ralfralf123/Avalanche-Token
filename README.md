@@ -26,13 +26,14 @@ The Degen Gaming Token (DGN) is an ERC-20 token deployed on the Avalanche Fuji T
 3. Start the network by running the command "npx hardhat run scripts/mint.js --network fuji"
 
 #### Deploying
-1. Set up a Avalanche network in your Metamask by adding a new network with these details (*Network Name: Avalanche Fuji C-Chain New RPC URL: https://api.avax-test.network/ext/bc/C/rpc ChainID: 43113 Symbol: AVAX Explorer: https://testnet.snowtrace.io/*)
-2. Then, copy the contents of DegenToken.sol and paste it on Remix IDE.
-3. Compile the smart contract.
-4. Configure Remix to connect to the local network: In the Remix Solidity IDE, locate the "Deploy & run transactions" panel on the right side of the screen. You will find a dropdown menu at the top of the panel labeled "Environment."
-5. Click on the dropdown menu and select the "Injected Provider" option.
-6. On the "At Address" section, add the contract's address (It is the address provided when you run the last step of *Setting Up the local Hardhat Network*)
-7. Finally, click the "At Address" button to deploy the smart contract and test its functionalities.
+1. Acquire some Testnet AVAX from the faucet on your wallet. You can get that here: https://faucet.avax.network/.
+2. Set up a Avalanche network in your Metamask by adding a new network with these details (*Network Name: Avalanche Fuji C-Chain New RPC URL: https://api.avax-test.network/ext/bc/C/rpc ChainID: 43113 Symbol: AVAX Explorer: https://testnet.snowtrace.io/*)
+3. Then, copy the contents of DegenToken.sol and paste it on Remix IDE.
+4. Compile the smart contract.
+5. Configure Remix to connect to the local network: In the Remix Solidity IDE, locate the "Deploy & run transactions" panel on the right side of the screen. You will find a dropdown menu at the top of the panel labeled "Environment."
+6. Click on the dropdown menu and select the "Injected Provider" option.
+7. On the "At Address" section, add the contract's address (It is the address provided when you run the last step of *Setting Up the local Hardhat Network*)
+8. Finally, click the "At Address" button to deploy the smart contract and test its functionalities.
 
 
 ## Authors
