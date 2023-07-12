@@ -26,7 +26,7 @@ The Degen Gaming Token (DGN) is an ERC-20 token deployed on the Avalanche Fuji T
 3. Start the network by running the command "npx hardhat run scripts/mint.js --network fuji"
 
 #### Deploying
-1. Set up the Avalanche network in your Metamask by adding a new network with these details (Network Name: Avalanche Fuji C-Chain New RPC URL: https://api.avax-test.network/ext/bc/C/rpc ChainID: 43113 Symbol: AVAX Explorer: https://testnet.snowtrace.io/)
+1. Set up a Avalanche network in your Metamask by adding a new network with these details (*Network Name: Avalanche Fuji C-Chain New RPC URL: https://api.avax-test.network/ext/bc/C/rpc ChainID: 43113 Symbol: AVAX Explorer: https://testnet.snowtrace.io/*)
 2. Then, copy the contents of DegenToken.sol and paste it on Remix IDE.
 3. Compile the smart contract.
 4. Configure Remix to connect to the local network: In the Remix Solidity IDE, locate the "Deploy & run transactions" panel on the right side of the screen. You will find a dropdown menu at the top of the panel labeled "Environment."
